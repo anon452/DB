@@ -49,7 +49,7 @@ The command to create a new database looks like this:
 
 For instance, if you want to create a database into the folder `tests/dbs/snb` using the example we provide in `tests/dbs/snb.txt` you need to run:
 - `bzip2 -k -d tests/dbs/snb.txt.bz2` (to decompress the example file)
-- `build/Release/bin/create_db tests/dbs/snb.txt tests/dbs/snb -b 1048576`
+- `build/Release/bin/create_db tests/dbs/snb.txt tests/dbs/snb`
 
 To delete a database just manually delete the created folder: `rm -r [path/to/database_folder]`.
 
